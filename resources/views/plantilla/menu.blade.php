@@ -24,7 +24,7 @@
                      <a href="#" class="nav-link">
                          <i class="nav-icon bi bi-speedometer"></i>
                          <p>
-                             Dashboard
+                             Seguridad
                              <i class="nav-arrow bi bi-chevron-right"></i>
                          </p>
                      </a>
@@ -32,13 +32,13 @@
                          <li class="nav-item">
                              <a href="../index.html" class="nav-link">
                                  <i class="nav-icon bi bi-circle"></i>
-                                 <p>Dashboard v1</p>
+                                 <p>Seguridad</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="../index2.html" class="nav-link">
+                             <a href="{{ route('usuario.index') }}" class="nav-link">
                                  <i class="nav-icon bi bi-circle"></i>
-                                 <p>Dashboard v2</p>
+                                 <p>Usuarios</p>
                              </a>
                          </li>
                          <li class="nav-item">
